@@ -93,7 +93,6 @@ To preview and test the app, follow these steps:
 
 ## Future Improvements
 
-- **Data Persistence**: Add functionality to save tasks locally using AsyncStorage or externally using a backend.
 - **Edit Tasks**: Implement a feature to edit existing tasks.
 - **Dark Mode**: Add support for dark mode for improved user experience.
 - **Sorting and Filtering**: Allow users to sort tasks by name, quantity, or creation date.
