@@ -26,9 +26,25 @@ export default function ListScreen({ navigation }) {
     await saveItems(updatedItems)
   }
 
+  const handleEditItem = (item) => {
+    navigation.navigate("AddItem", { 
+      item, 
+      onSave: (updatedItem) => {
+        const updatedItems = items.map((i) =>
+          i.id === updatedItem.id ? updatedItem : i
+        )
+        setItems(updatedItems) 
+        saveItems(updatedItems) 
+      }
+    })
+  }
+  
+  
+  
+
   return (
     <View style={globalStyles.container}>
-      <ItemList items={items} onDeleteItem={handleDeleteItem} />
+      <ItemList items={items} onDeleteItem={handleDeleteItem} onEditItem={handleEditItem}/>
       <Button title="Add New Item" onPress={() => navigation.navigate("AddItem")} />
     </View>
   )

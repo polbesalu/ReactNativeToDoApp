@@ -20,7 +20,6 @@ export default StyleSheet.create({
   },
   itemContainer: {
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
     backgroundColor: "white",
     padding: 15,
@@ -35,11 +34,14 @@ export default StyleSheet.create({
   itemName: {
     fontSize: 18,
     fontWeight: "bold",
-    maxWidth: "85%",
+    width: "210",
+    marginRight: 5,
   },
   itemDescription: {
     fontSize: 14,
     color: "gray",
+    width: "210",
+    marginRight: 5,
   },
   deleteButton: {
     backgroundColor: "#ff6b6b",
@@ -47,6 +49,15 @@ export default StyleSheet.create({
     borderRadius: 5,
   },
   deleteButtonText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+  editButton: {
+    backgroundColor: "blue",
+    padding: 8,
+    borderRadius: 5,
+  },
+  editButtonText: {
     color: "white",
     fontWeight: "bold",
   },
