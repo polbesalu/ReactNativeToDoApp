@@ -35,6 +35,7 @@ export default StyleSheet.create({
   itemName: {
     fontSize: 18,
     fontWeight: "bold",
+    maxWidth: "85%",
   },
   itemDescription: {
     fontSize: 14,
