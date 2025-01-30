@@ -8,6 +8,7 @@ This is a simple To-Do List application built with React Native. The app feature
 
 - **View Tasks**: Displays a list of tasks with their names and quantities.
 - **Add Tasks**: Add new tasks by entering their name and quantity on a dedicated screen.
+- **Edit Tasks**: Edit tasks can be edited after being created.
 - **Delete Tasks**: Remove tasks directly from the list.
 - **React Native**: Designed for cross-platform functionality, compatible with both iOS and Android.
 - **Expo Integration**: Quickly run and test the app with `expo-cli` and the Expo Go app.
@@ -27,10 +28,13 @@ To preview and test the app, follow these steps:
 ## Screenshots
 
 ### View Tasks Screen  
-![IMG_4647](https://github.com/user-attachments/assets/34d98c15-c5ff-491a-8072-fa2664425cb6)
+![IMG_4650](https://github.com/user-attachments/assets/9295c0b4-bc59-40f4-95b3-2707cd2aa272)
 
 ### Add Tasks Screen  
 ![IMG_4648](https://github.com/user-attachments/assets/10020e15-d07c-46a9-92a9-135b0cb282c2)
+
+### Edit Tasks Screen
+![IMG_4651](https://github.com/user-attachments/assets/b4adfaf4-6310-4c41-b3d2-5ad83bbca16b)
 
 ---
 
@@ -93,7 +97,6 @@ To preview and test the app, follow these steps:
 
 ## Future Improvements
 
-- **Edit Tasks**: Implement a feature to edit existing tasks.
 - **Dark Mode**: Add support for dark mode for improved user experience.
 - **Sorting and Filtering**: Allow users to sort tasks by name, quantity, or creation date.
 
